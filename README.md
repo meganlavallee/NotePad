@@ -1,25 +1,62 @@
 # NotePad
 
-Introduction:
+## Table of contents
+
+- [Description](#description)
+- [User Story](#user-story)
+- [Technological Outline](#technological-outline)
+- [Collaborators](#collaborators)
+- [Technologies](#technologies)
+- [SetUp](#setup)
+- [Conclusion](#conclusion)
+- [Deployed Link](#github)
+- [Motivation](#motivation)
+- [Demos](#demos)
+- [How To Use](#howtouse)
+- [License](#license)
+
+## Description
 Welcome to my NotePad.    
 
-User Story:
-The user will be able to add notes as a task and store it in the application.  This will allow the user to finish tasks and visually see what is needed to do.  
+## User Story
+The user will be able to:
+- add notes as a task
+- store it in the application
+- allow the user to finish tasks and visually see what is needed to do.  
 
-Technological Outline:
-Starter code of HTML, CSS, and Javascript were provided to us.  Went through the code and the instructions to deteremine what was needed to complete.  
+## Technologies
+- HTML
+- CSS
+- Javascript
+- CMV Folder Pattern
+- Express
+- uuidv4
 
-Division of Labor:
+## Collaborators
 I, Megan, soley did all work for this.  
 
-Conclusion:
+## Conclusion
 This note application is great for anyone who needs to keep their tasks in order. 
 
-Deployment:
-Deployment will be on webpage through Heroku. Users will be able to view through webpage listed down below as well. 
+## Set Up
+
+Deployment will be on webpage through Heroku. Users will be able to view through webpage listed down below as well.
+
+To run this project, install it locally using git clone:
+
+```
+$ cd folder
+$ git clone ____
+$ npm start
+```
+ 
+## Demos
+![image](https://user-images.githubusercontent.com/73404164/103424270-6fd76080-4b68-11eb-9738-e0713b82d3d6.png)
+![image](https://user-images.githubusercontent.com/73404164/103424272-7534ab00-4b68-11eb-951a-1ddb07eaf33e.png)
 
 
-Link to deployed app
+## Deployed Link
+https://git.heroku.com/notespads.git
 https://github.com/meganlavallee/NotePad
 
 Contact Information: 
