@@ -1,6 +1,6 @@
 var { writeFile } = require("fs");
 var Data = require("../db/db.json");
-var uuidv4 = require("uuid/v4");
+var uuid = require("uuid");
 
 // Main Function
 module.exports = function (app) {
@@ -24,7 +24,7 @@ module.exports = function (app) {
     // UNIQUE ID
     let newNote = req.body;
     // Using uuid method to generate unique id
-    newNote.id = uuidv4();
+    newNote.id = uuid();
 
     // Push new note to data base
     Data.push(newNote);
