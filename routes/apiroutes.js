@@ -24,7 +24,7 @@ module.exports = function (app) {
     // UNIQUE ID
     let newNote = req.body;
     // Using uuid method to generate unique id
-    newNote.id = uuid();
+    newNote.id = uuid.v1();
 
     // Push new note to data base
     Data.push(newNote);
